@@ -30,6 +30,26 @@
     {
       "type": "composer",
       "url": "https://wpackagist.org"
+    },
+    {
+      "type": "package",
+      "package": {
+          "name": "wpackagist-plugin/advanced-custom-fields-pro",
+          "type": "wordpress-plugin",
+          "version": "5.7.2",
+          "dist": {
+              "url": "https://connect.advancedcustomfields.com/index.php?v=5.7.2&p=pro&a=download&k=b3JkZXJfaWQ9NjA3ODV8dHlwZT1kZXZlbG9wZXJ8ZGF0ZT0yMDE1LTA3LTI4IDExOjU4OjUx",
+              "type": "zip"
+          }
+      }
+    },
+    {
+        "type": "vcs",
+        "url": "git@github.com:padcreative/pad-child.git"
+    },
+    {
+        "type": "vcs",
+        "url": "git@github.com:padcreative/backupbuddy.git"
     }
   ],
   "require": {
@@ -37,9 +57,19 @@
     "composer/installers": "^1.4",
     "vlucas/phpdotenv": "^3.0.0",
     "oscarotero/env": "^1.1.0",
-    "roots/wordpress": "5.1",
-    "roots/wp-config": "1.0.0",
-    "roots/wp-password-bcrypt": "1.0.0"
+    "roots/wordpress": "^5.1",
+    "roots/wp-config": "^1.0.0",
+    "roots/wp-password-bcrypt": "^1.0.0",
+    "wordplate/bem": "^0.3.0",
+    "wpackagist-plugin/advanced-custom-fields-pro": "^5.7",
+    "wpackagist-plugin/hide-updates": "^1.1",
+    "wpackagist-plugin/duplicate-post":"^3.2.2",
+    "wpackagist-plugin/wordpress-seo":"^9.6",
+    "padcreative/pad-child": "1.0.0",
+    "ithemes/backupbuddy": "dev-master",
+    "wpackagist-plugin/wordfence": "^7.2",
+    "wpackagist-plugin/regenerate-thumbnails":"^3.1.0",
+    "wpackagist-plugin/classic-editor":"^1.4"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.0.2",
@@ -47,7 +77,15 @@
   },
   "extra": {
     "installer-paths": {
-      "web/app/mu-plugins/{$name}/": ["type:wordpress-muplugin"],
+      "web/app/mu-plugins/{$name}/": ["type:wordpress-muplugin",
+        "wpackagist-plugin/hide-updates",
+        "wpackagist-plugin/advanced-custom-fields-pro",
+        "wpackagist-plugin/duplicate-post",
+        "wpackagist-plugin/wordpress-seo",
+        "wpackagist-plugin/regenerate-thumbnails",
+        "wpackagist-plugin/classic-editor",
+        "wordplate/bem"
+      ],
       "web/app/plugins/{$name}/": ["type:wordpress-plugin"],
       "web/app/themes/{$name}/": ["type:wordpress-theme"]
     },
