@@ -1,0 +1,26 @@
+{
+  "name": "wordpress-js",
+  "version": "1.0.0",
+  "description": "Test WordPress JS core",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pres1av/wordpress-js.git"
+  },
+  "keywords": [
+    "wordpress",
+    "core"
+  ],
+  "author": "Stefan Staykov <pres1av@pm.me>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pres1av/wordpress-js/issues"
+  },
+  "homepage": "https://github.com/pres1av/wordpress-js#readme",
+  "dependencies": {
+    "wordpress": "^1.4.1"
+  }
+}
