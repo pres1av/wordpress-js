@@ -1,6 +1,8 @@
 # Application
 web/app/plugins/*
 !web/app/plugins/.gitkeep
+web/app/themes/pad-template
+web/app/themes/pad-child
 web/app/mu-plugins/*/
 web/app/upgrade
 web/app/uploads/*
