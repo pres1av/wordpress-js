@@ -45,15 +45,15 @@
     },
     {
         "type": "vcs",
-        "url": "git@github.com:padcreative/pad-child.git"
-    },
-    {
-        "type": "vcs",
         "url": "git@github.com:padcreative/pad-template.git"
     },
     {
         "type": "vcs",
         "url": "git@github.com:padcreative/backupbuddy.git"
+    },
+    {
+      "type": "vcs",
+      "url": "git@github.com:padcreative/gravityforms.git"
     }
   ],
   "require": {
@@ -65,13 +65,13 @@
     "roots/wp-config": "^1.0.0",
     "roots/wp-password-bcrypt": "^1.0.0",
     "wordplate/bem": "^0.3.0",
+    "wpackagist-plugin/acf-to-rest-api":"^3.1.0",
     "wpackagist-plugin/advanced-custom-fields-pro": "^5.7",
-    "wpackagist-plugin/hide-updates": "^1.1",
     "wpackagist-plugin/duplicate-post":"^3.2.2",
     "wpackagist-plugin/wordpress-seo":"^9.6",
-    "padcreative/pad-child": "1.0.0",
-    "padcreative/pad-template": "dev-master",
+    "padcreative/pad-template": "dev-new-template",
     "ithemes/backupbuddy": "dev-master",
+    "rocketgenius/gravityforms": "dev-master",
     "wpackagist-plugin/wordfence": "^7.2",
     "wpackagist-plugin/regenerate-thumbnails":"^3.1.0",
     "wpackagist-plugin/classic-editor":"^1.4"
@@ -83,12 +83,6 @@
   "extra": {
     "installer-paths": {
       "web/app/mu-plugins/{$name}/": ["type:wordpress-muplugin",
-        "wpackagist-plugin/hide-updates",
-        "wpackagist-plugin/advanced-custom-fields-pro",
-        "wpackagist-plugin/duplicate-post",
-        "wpackagist-plugin/wordpress-seo",
-        "wpackagist-plugin/regenerate-thumbnails",
-        "wpackagist-plugin/classic-editor",
         "wordplate/bem"
       ],
       "web/app/plugins/{$name}/": ["type:wordpress-plugin"],

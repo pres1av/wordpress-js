@@ -8,9 +8,21 @@ web/app/upgrade
 web/app/uploads/*
 !web/app/uploads/.gitkeep
 
+# Application
+public_html/app/plugins/*
+!public_html/app/plugins/.gitkeep
+public_html/app/themes/pad-template
+public_html/app/themes/pad-child
+public_html/app/mu-plugins/*/
+public_html/app/upgrade
+public_html/app/uploads/*
+!public_html/app/uploads/.gitkeep
+
 # WordPress
 web/wp
 web/.htaccess
+public_html/wp
+public_html/.htaccess
 
 # Dotenv
 .env
@@ -25,3 +37,10 @@ wp-cli.local.yml
 
 # Node
 node_modules
+
+# Hosting
+logs
+composer.phar
+.bash_history
+.bashrc
+..filemanagerkey

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "888bee284f21570ba4bdf6962179274f",
+    "content-hash": "08973b418c1c356ea0a97a2ad715e4d4",
     "packages": [
         {
             "name": "composer/installers",
@@ -191,22 +191,21 @@
             "time": "2017-07-17T20:41:59+00:00"
         },
         {
-            "name": "padcreative/pad-child",
-            "version": "1.0.0",
+            "name": "padcreative/pad-template",
+            "version": "dev-new-template",
             "source": {
                 "type": "git",
-                "url": "git@github.com:padcreative/pad-child.git",
-                "reference": "f0e9ec85568ac350e2eca9928d4ccc2753e17665"
+                "url": "git@github.com:padcreative/pad-template.git",
+                "reference": "ddf894bd23a39266221e0d48e4a00a7adb56a573"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/padcreative/pad-child/zipball/f0e9ec85568ac350e2eca9928d4ccc2753e17665",
-                "reference": "f0e9ec85568ac350e2eca9928d4ccc2753e17665",
+                "url": "https://api.github.com/repos/padcreative/pad-template/zipball/ddf894bd23a39266221e0d48e4a00a7adb56a573",
+                "reference": "ddf894bd23a39266221e0d48e4a00a7adb56a573",
                 "shasum": ""
             },
             "require": {
-                "composer/installers": "^1.4",
-                "padcreative/pad-template": "dev-master"
+                "composer/installers": "^1.4"
             },
             "type": "wordpress-theme",
             "extra": {
@@ -224,37 +223,9 @@
             ],
             "description": "Default WordPress Child Theme of Pad Creative",
             "support": {
-                "source": "https://github.com/padcreative/pad-child/tree/1.0.0",
-                "issues": "https://github.com/padcreative/pad-child/issues"
+                "source": "https://github.com/padcreative/pad-template/tree/new-template"
             },
-            "time": "2019-02-24T17:04:01+00:00"
-        },
-        {
-            "name": "padcreative/pad-template",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "git@github.com:padcreative/pad-template.git",
-                "reference": "94e5588967563772f550e7b16f655b9e397b4c34"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/padcreative/pad-template/zipball/94e5588967563772f550e7b16f655b9e397b4c34",
-                "reference": "94e5588967563772f550e7b16f655b9e397b4c34",
-                "shasum": ""
-            },
-            "type": "wordpress-theme",
-            "authors": [
-                {
-                    "name": "Stefan Staykov",
-                    "email": "stefan@padcreative.co.uk"
-                }
-            ],
-            "description": "Default WordPress Parent Theme of Pad Creative",
-            "support": {
-                "source": "https://github.com/padcreative/pad-template/tree/master"
-            },
-            "time": "2019-02-24T17:00:45+00:00"
+            "time": "2019-03-01T21:05:20+00:00"
         },
         {
             "name": "phpoption/phpoption",
@@ -307,6 +278,28 @@
             "time": "2015-07-25T16:39:46+00:00"
         },
         {
+            "name": "rocketgenius/gravityforms",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:padcreative/gravityforms.git",
+                "reference": "3674f661f387c9d57ee7eb2e2f41949a73ab78b4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/padcreative/gravityforms/zipball/3674f661f387c9d57ee7eb2e2f41949a73ab78b4",
+                "reference": "3674f661f387c9d57ee7eb2e2f41949a73ab78b4",
+                "shasum": ""
+            },
+            "type": "wordpress-plugin",
+            "description": "Gravity Forms WordPress Plugin by Rocketgenius",
+            "support": {
+                "source": "https://github.com/padcreative/gravityforms/tree/master",
+                "issues": "https://github.com/padcreative/gravityforms/issues"
+            },
+            "time": "2019-02-25T21:17:36+00:00"
+        },
+        {
             "name": "roots/wordpress",
             "version": "5.1",
             "source": {
@@ -317,7 +310,8 @@
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/WordPress/WordPress/zipball/5.1",
-                "reference": "5.1"
+                "reference": "5.1",
+                "shasum": null
             },
             "require": {
                 "php": ">=5.3.2",
@@ -558,16 +552,16 @@
         },
         {
             "name": "vlucas/phpdotenv",
-            "version": "v3.3.2",
+            "version": "v3.3.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/vlucas/phpdotenv.git",
-                "reference": "1ee9369cfbf26cfcf1f2515d98f15fab54e9647a"
+                "reference": "dbcc609971dd9b55f48b8008b553d79fd372ddde"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/vlucas/phpdotenv/zipball/1ee9369cfbf26cfcf1f2515d98f15fab54e9647a",
-                "reference": "1ee9369cfbf26cfcf1f2515d98f15fab54e9647a",
+                "url": "https://api.github.com/repos/vlucas/phpdotenv/zipball/dbcc609971dd9b55f48b8008b553d79fd372ddde",
+                "reference": "dbcc609971dd9b55f48b8008b553d79fd372ddde",
                 "shasum": ""
             },
             "require": {
@@ -606,7 +600,7 @@
                 "env",
                 "environment"
             ],
-            "time": "2019-01-30T10:43:17+00:00"
+            "time": "2019-03-06T09:39:45+00:00"
         },
         {
             "name": "wordplate/bem",
@@ -652,11 +646,33 @@
             "time": "2018-10-04T11:47:25+00:00"
         },
         {
+            "name": "wpackagist-plugin/acf-to-rest-api",
+            "version": "3.1.0",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/acf-to-rest-api/",
+                "reference": "tags/3.1.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/acf-to-rest-api.3.1.0.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/acf-to-rest-api/"
+        },
+        {
             "name": "wpackagist-plugin/advanced-custom-fields-pro",
             "version": "5.7.2",
             "dist": {
                 "type": "zip",
-                "url": "https://connect.advancedcustomfields.com/index.php?v=5.7.2&p=pro&a=download&k=b3JkZXJfaWQ9NjA3ODV8dHlwZT1kZXZlbG9wZXJ8ZGF0ZT0yMDE1LTA3LTI4IDExOjU4OjUx"
+                "url": "https://connect.advancedcustomfields.com/index.php?v=5.7.2&p=pro&a=download&k=b3JkZXJfaWQ9NjA3ODV8dHlwZT1kZXZlbG9wZXJ8ZGF0ZT0yMDE1LTA3LTI4IDExOjU4OjUx",
+                "reference": null,
+                "shasum": null
             },
             "type": "wordpress-plugin"
         },
@@ -670,7 +686,9 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/classic-editor.1.4.zip"
+                "url": "https://downloads.wordpress.org/plugin/classic-editor.1.4.zip",
+                "reference": null,
+                "shasum": null
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -688,31 +706,15 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/duplicate-post.3.2.2.zip"
+                "url": "https://downloads.wordpress.org/plugin/duplicate-post.3.2.2.zip",
+                "reference": null,
+                "shasum": null
             },
             "require": {
                 "composer/installers": "~1.0"
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/duplicate-post/"
-        },
-        {
-            "name": "wpackagist-plugin/hide-updates",
-            "version": "1.1.3",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/hide-updates/",
-                "reference": "tags/1.1.3"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/hide-updates.1.1.3.zip"
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/hide-updates/"
         },
         {
             "name": "wpackagist-plugin/regenerate-thumbnails",
@@ -724,7 +726,9 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/regenerate-thumbnails.zip?timestamp=1546642223"
+                "url": "https://downloads.wordpress.org/plugin/regenerate-thumbnails.zip?timestamp=1546642223",
+                "reference": null,
+                "shasum": null
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -734,15 +738,17 @@
         },
         {
             "name": "wpackagist-plugin/wordfence",
-            "version": "7.2.2",
+            "version": "7.2.3",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wordfence/",
-                "reference": "tags/7.2.2"
+                "reference": "tags/7.2.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wordfence.7.2.2.zip"
+                "url": "https://downloads.wordpress.org/plugin/wordfence.7.2.3.zip",
+                "reference": null,
+                "shasum": null
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -752,15 +758,17 @@
         },
         {
             "name": "wpackagist-plugin/wordpress-seo",
-            "version": "9.6",
+            "version": "9.7",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wordpress-seo/",
-                "reference": "tags/9.6"
+                "reference": "tags/9.7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.9.6.zip"
+                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.9.7.zip",
+                "reference": null,
+                "shasum": null
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -776,12 +784,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Roave/SecurityAdvisories.git",
-                "reference": "614a9db1df6be4349544311096f8d48ca067ccbb"
+                "reference": "4e04718428742618a4bf24dafca45b8645c9320d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/614a9db1df6be4349544311096f8d48ca067ccbb",
-                "reference": "614a9db1df6be4349544311096f8d48ca067ccbb",
+                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/4e04718428742618a4bf24dafca45b8645c9320d",
+                "reference": "4e04718428742618a4bf24dafca45b8645c9320d",
                 "shasum": ""
             },
             "conflict": {
@@ -816,91 +824,8 @@
                 "doctrine/mongodb-odm-bundle": ">=2,<3.0.1",
                 "doctrine/orm": ">=2,<2.4.8|>=2.5,<2.5.1",
                 "dompdf/dompdf": ">=0.6,<0.6.2",
-                "drupal/acquia_connector": ">=1,<1.16",
-                "drupal/autologout": ">=4,<4.5",
-                "drupal/backup_migrate": ">=3,<3.4",
-                "drupal/bealestreet": ">=1,<1.2",
-                "drupal/bible": ">=1,<1.7",
-                "drupal/bing_autosuggest_api": ">=1,<1.1",
-                "drupal/bootstrap": ">=3,<3.14",
-                "drupal/brilliant_gallery": ">=1,<1.10",
-                "drupal/ckeditor_uploadimage": ">=1,<1.5",
-                "drupal/cleantalk": ">=2,<2.7",
-                "drupal/cloud": ">=1,<1.7",
-                "drupal/commerce": ">=2,<2.9",
-                "drupal/commerce_custom_order_status": ">=1,<1.1",
-                "drupal/commerce_klarna_checkout": ">=1,<1.5",
-                "drupal/config_perms": ">=1,<1.1|>=2,<2.2",
-                "drupal/config_update": ">=1,<1.5",
                 "drupal/core": ">=7,<7.62|>=8,<8.5.11|>=8.6,<8.6.10",
-                "drupal/datereminder": ">=1,<1.15",
-                "drupal/decoupled_router": ">=1,<1.2",
-                "drupal/domain_integration": ">=1,<1.2",
                 "drupal/drupal": ">=7,<7.62|>=8,<8.5.11|>=8.6,<8.6.10",
-                "drupal/entity": ">=1,<1.9",
-                "drupal/entity_ref_tab_formatter": ">=1,<1.3",
-                "drupal/entityqueue_taxonomy": ">=1,<1.1",
-                "drupal/esign": ">=1,<1.10",
-                "drupal/eu_cookie_compliance": ">=1,<1.1",
-                "drupal/exif": ">=1,<1.1",
-                "drupal/feedback_collect": ">=1,<1.6",
-                "drupal/filefield_paths": ">=1,<1.1",
-                "drupal/filefield_sources": ">=1,<1.11",
-                "drupal/focal_point": ">=1,<1.2",
-                "drupal/fontawesome": ">=2,<2.12",
-                "drupal/fraction": ">=1,<1.2",
-                "drupal/gathercontent": ">=3,<3.5",
-                "drupal/genpass": ">=1,<1.1",
-                "drupal/hosting_https": ">=3,<3.170",
-                "drupal/jsonapi": ">=1,<1.16",
-                "drupal/lightbox2": ">=2,<2.11",
-                "drupal/link": ">=1,<1.6",
-                "drupal/litejazz": ">=2,<2.3",
-                "drupal/mailhandler": ">=2,<2.11",
-                "drupal/mass_pwreset": ">=1,<1.1",
-                "drupal/me": ">=1,<1.3",
-                "drupal/media": ">=2,<2.19",
-                "drupal/menu_export": ">=1,<1.2",
-                "drupal/metatag": ">=1,<1.8",
-                "drupal/miniorange_oauth_client": ">=1,<1.21",
-                "drupal/moneysuite": ">=10,<10.4",
-                "drupal/mosaik": ">=1,<1.2",
-                "drupal/netforum_authentication": ">=1,<1.1",
-                "drupal/newsflash": ">=2,<2.6",
-                "drupal/node_feedback": ">=1,<1.3",
-                "drupal/node_view_permissions": ">=1,<1.1",
-                "drupal/nucleus": ">=1,<1.6",
-                "drupal/nvp": ">=1,<1.1",
-                "drupal/panels_breadcrumbs": ">=2,<2.4",
-                "drupal/panopoly_core": ">=1,<1.49",
-                "drupal/paragraphs": ">=1,<1.6",
-                "drupal/password_policy": ">=1,<1.16",
-                "drupal/permissions_by_term": ">=1,<1.35",
-                "drupal/phonefield": ">=1,<1.1",
-                "drupal/phpconfig": ">=1,<1.1",
-                "drupal/preview_link": ">=1,<1.1",
-                "drupal/print": ">=2,<2.1",
-                "drupal/provision": ">=3,<3.170",
-                "drupal/pubdlcnt": ">=1,<1.3",
-                "drupal/renderkit": ">=1,<1.6",
-                "drupal/responsive_menus": ">=1,<1.7",
-                "drupal/restws": ">=2,<2.8",
-                "drupal/sagepay_payment": ">=1,<1.5",
-                "drupal/salesforce": ">=3,<3.1",
-                "drupal/search_api_solr": ">=1,<1.14",
-                "drupal/search_autocomplete": ">=4,<4.8",
-                "drupal/services_sso_client": ">=1,<1.6",
-                "drupal/stacks": ">=1,<1.1",
-                "drupal/tapestry": ">=2,<2.2",
-                "drupal/term_reference_tree": ">=1,<1.11",
-                "drupal/tfa_basic": ">=1,<1.1",
-                "drupal/tft": ">=1,<1.1",
-                "drupal/tmgmt": ">=1,<1.7",
-                "drupal/uuid": ">=1,<1.1",
-                "drupal/video": ">=1,<1.4",
-                "drupal/workbench_moderation": ">=1,<1.4",
-                "drupal/yandex_metrics": ">=3,<3.1",
-                "drupal/zircon": ">=1,<1.2",
                 "erusev/parsedown": "<1.7",
                 "ezsystems/ezpublish-kernel": ">=5.3,<5.3.12.1|>=5.4,<5.4.13.1|>=6,<6.7.9.1|>=6.8,<6.13.5.1|>=7,<7.2.4.1|>=7.3,<7.3.2.1",
                 "ezsystems/ezpublish-legacy": ">=5.3,<5.3.12.6|>=5.4,<5.4.12.3|>=2011,<2017.12.4.3|>=2018.6,<2018.6.1.4|>=2018.9,<2018.9.1.3",
@@ -997,7 +922,7 @@
                 "symfony/yaml": ">=2,<2.0.22|>=2.1,<2.1.7",
                 "tecnickcom/tcpdf": "<6.2.22",
                 "thelia/backoffice-default-template": ">=2.1,<2.1.2",
-                "thelia/thelia": ">=2.1,<2.1.2|>=2.1.0-beta1,<2.1.3",
+                "thelia/thelia": ">=2.1.0-beta1,<2.1.3|>=2.1,<2.1.2",
                 "theonedemon/phpwhois": "<=4.2.5",
                 "titon/framework": ">=0,<9.9.99",
                 "truckersmp/phpwhois": "<=4.3.1",
@@ -1055,7 +980,7 @@
                 }
             ],
             "description": "Prevents installation of composer packages with known security vulnerabilities: no API, simply require it",
-            "time": "2019-02-22T18:40:39+00:00"
+            "time": "2019-02-26T21:14:50+00:00"
         },
         {
             "name": "squizlabs/php_codesniffer",
@@ -1114,6 +1039,7 @@
     "stability-flags": {
         "padcreative/pad-template": 20,
         "ithemes/backupbuddy": 20,
+        "rocketgenius/gravityforms": 20,
         "roave/security-advisories": 20
     },
     "prefer-stable": false,
